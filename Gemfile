@@ -61,3 +61,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Slim is a template language whose goal is reduce the syntax to the essential parts without becoming cryptic.
 gem 'slim-rails', '~> 3.2'
+gem 'aws-sdk'
+gem 'aws-sdk-s3', require: false
