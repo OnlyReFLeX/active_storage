@@ -6,6 +6,10 @@ p
 p
   strong Body:
   = @post.body
+- if @post.image.attached?
+  p
+    strong Image:
+    = image_tag @post.image
 
 => link_to 'Edit', edit_post_path(@post)
 '|
